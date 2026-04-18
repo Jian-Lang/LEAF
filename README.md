@@ -2,6 +2,14 @@
 
 This repo provides an official implementation of LEAF as described in the paper: *LEAF: Towards Lightweight Explainable Hateful Video Detection via Self-Grounding CoT Guided Stage-Wise Distillation*, which is accepted by ACL 2026 Findings.
 
+## Abstract
+
+The rapid spread of hateful videos online has sparked growing social concerns, driving research efforts to detect and limit their dissemination. However, existing methods rely on opaque models that offer no insight into their decisions, eroding trust in detection systems. Large Multimodal Models (LMMs) provide a compelling alternative, thanks to their ability to generate free-text explanations for multimodal content. Yet, their high computational demands and pronounced bias toward benign predictions limit their practicality. We introduce LEAF, the first Lightweight, Explainable hAteful video detection Framework. At its core, LEAF distills the "explainability" from LMMs into efficient Smaller Multimodal Models (SMMs) through a controlled, de-biasing process, enabling lightweight yet interpretable Hateful Video Detection (HVD). We achieve this with a novel Self-Grounding Chain-of-Thought mechanism that guides LMMs to generate high-quality, unbiased explanatory supervision signals for videos. These signals then progressively train the SMM via a new Stage-Wise Distillation paradigm, resulting in faithful, human-readable natural language explanations for HVD. Extensive experiments on three video benchmarks demonstrate that LEAF not only outperforms prior methods in detection accuracy but also provides strong explainability - all with a lightweight design.
+
+## Framework
+
+![alt text](leaf.jpg)
+
 ## Dataset
 We use three datasets for our experiments. Due to copyright restrictions, the raw datasets are not included. You can obtain the datasets from their respective project sites:
 

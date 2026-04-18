@@ -8,7 +8,7 @@ The rapid spread of hateful videos online has sparked growing social concerns, d
 
 ## Framework
 
-![alt text](leaf.jpg)
+![alt text](leaf.png)
 
 ## Dataset
 We use three datasets for our experiments. Due to copyright restrictions, the raw datasets are not included. You can obtain the datasets from their respective project sites:

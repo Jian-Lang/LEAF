@@ -1,4 +1,4 @@
-# LEAF: Lightweight Explainable hAteful video detection Framework via Self-Grounding Chain-of-Thought
+# LEAF
 
 This repo provides an official implementation of LEAF as described in the paper: *LEAF: Towards Lightweight Explainable Hateful Video Detection via Self-Grounding CoT Guided Stage-Wise Distillation*, which is accepted by ACL 2026 Findings.
 
